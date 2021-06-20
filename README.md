@@ -7,3 +7,6 @@ Developed with:
 - HTML5
 - CSS3
 - Javascript
+
+![Card Game](memorygame.png)
+
