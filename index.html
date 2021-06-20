@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Memory Cards</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Match Cards Game!</h1>
+  <div id="board">
+    <div class="scores">
+      <span class="score score__count">0</span>
+      <span>Turns</span>
+    </div>
+    <div class="scores">
+      <span class="score score__rights">0</span>
+      <span>Matches</span>
+    </div>
+    <div class="scores">
+      <span class="score score__wrongs">0</span>
+      <span>Fails</span>
+    </div>
+  </div>
+  <div id="cards"></div>
+  <div id="endGame">
+    <div class="modal">
+      <p class="congrats">
+        Yei, you won!
+      </p>
+      <p>
+        <a id="restart" href="#" class="button">Restart Game</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
